@@ -8,6 +8,15 @@ GET http://localhost:3000/songs/1
 
 ### Create New SONGS REQUEST
 POST http://localhost:3000/songs
+Content-Type: application/json
+
+{
+    "title": "Ptaha Fred",
+    "artists": ["The Unsleeping"],
+    "releaseDate": "2015-05-24",
+    "duration": "03:20"
+}
+
 
 
 ### Update SONGS REQUEST
